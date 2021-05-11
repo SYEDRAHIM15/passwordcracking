@@ -28,11 +28,11 @@ print """
 \033[1;97m           [⚡       \033[1;97mFrom: PESHAWAR    ⚡\033[1;97m]
 
 \033[1;47m\033[1;35m          Enter Facebook Account User Name                 \033[1;0m
-"""    
+""""""    
 time.sleep(0.5)
 user = raw_input('[+] Target Username/ID/Email : ')
 time.sleep(0.8)
-wrdlstFileName = raw_input('\n[+] Enter Wordlist Directory : ') "Type.     mobile.txt
+wrdlstFileName = raw_input('\n[+] Enter Wordlist Directory : ')      mobile.txt
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
